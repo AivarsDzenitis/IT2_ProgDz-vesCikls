@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BillboardTree : MonoBehaviour
 {
-    private Transform camTransform;
+    private Transform SecondaryCam;
 
     void Start()
     {
