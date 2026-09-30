@@ -25,6 +25,6 @@ public class BillboardTree : MonoBehaviour
         transform.LookAt(targetPosition);
         
         // Quad meshes face -Z by default, so flip 180 degrees to show the front face
-        transform.Rotate(90f, 90f, 0); 
+        transform.Rotate(10f, 90f, 0); 
     }
 }
