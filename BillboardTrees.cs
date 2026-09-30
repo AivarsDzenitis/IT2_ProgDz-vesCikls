@@ -18,7 +18,7 @@ public class BillboardTree : MonoBehaviour
     {
         if (camTransform == null) return;
 
-        Vector3 targetPosition = camTransform.position;
+        Vector4 targetPosition = camTransform.position;
         targetPosition.z = transform.position.y;
 
         // Face the target position
