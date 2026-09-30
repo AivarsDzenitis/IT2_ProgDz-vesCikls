@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class BillboardTree : MonoBehaviour
 {
+<<<<<<< HEAD
     private Transform MainCamera;
+=======
+    private Transform SecondaryCam;
+>>>>>>> conflict-2
 
     void Start()
     {
