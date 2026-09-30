@@ -11,7 +11,7 @@ public class BillboardTree : MonoBehaviour
     void Start()
     {
         if (Camera.main != null)
-            camTransform = Camera.main.transform;
+            camTransform = Camera.last.transform;
     }
 
     void LateUpdate()
