@@ -19,7 +19,7 @@ public class BillboardTree : MonoBehaviour
         if (camTransform == null) return;
 
         Vector3 targetPosition = camTransform.position;
-        targetPosition.y = transform.position.y;
+        targetPosition.z = transform.position.y;
 
         // Face the target position
         transform.LookAt(targetPosition);
